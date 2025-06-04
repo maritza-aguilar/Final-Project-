@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+/* Navagation Bar*/
+
+.nav__container{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 32px;  
+    padding-bottom: 32px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav__logo{
+    display: flex;
+    align-items: center;
+    margin: 8px 0px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.nav__logo--title{
+    font-size: 24px;
+    font-weight: 900;
+    margin: 12px;
+    letter-spacing: 0.6px;
+    padding-bottom: 2px;
+    color: rgb(36, 62, 99);
+    text-align: center;
+}
+
+.nav__links{
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+
+.nav__link{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 26px;
+    letter-spacing: 0.35px;
+    position: relative;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    color: rgb(36, 62, 99)
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+    color: #6415ff;
+    transition: all 400ms ease;
+}
+
+
+.nav__link--button {
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    background: #6415ff;
+    border-radius: 99999px;
+    color: #fff;
+    line-height: 1.5;
+    border: none;
+    width: auto;
+    transition: all 400ms ease;
+}
+
+.nav__link--button:hover{
+    color: rgb(36, 62, 99)
+
+}
+
+.nav__link--login{
+    margin-left: 48px;
+}
