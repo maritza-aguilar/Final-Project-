@@ -25,6 +25,10 @@ html {
     padding: 32px;
 }
 
+.body{
+    margin-bottom: 96px;
+}
+
 /* Navagation Bar*/
 
 .nav__container {
@@ -880,7 +884,7 @@ h2 {
 /* start */
 
 #get__start{
-    padding: 0 32px;
+    padding: 0 96px;
 }
 
 .get__start--container{
@@ -957,3 +961,5 @@ h2 {
     background-color: rgb(247, 250, 252);
     color: #6415ff;
 }
+
+/* Footer */
