@@ -1169,12 +1169,12 @@ footer{
         margin: 20px 0;
     }
 
-    .header__img--wrapper 
+    .header__img--wrapper, 
     .header__customers--title{
         margin-top: 48px;
     }
 
-    .header__discription
+    .header__discription,
     .header__img--wrapper{
         width: 100%;
         max-width: 512px;
