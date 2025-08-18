@@ -27,6 +27,11 @@ html {
 
 .body{
     margin-bottom: 96px;
+    overflow-x: hidden;
+}
+
+.button{
+    cursor: pointer;
 }
 
 /* Navagation Bar*/
@@ -165,6 +170,7 @@ html {
     margin: 8px 0;
     padding-bottom: 4px;
     border-bottom: 2px solid transparent;
+    text-decoration: none;
 }
 
 .menu__link--primary{
@@ -174,6 +180,7 @@ html {
     border-radius: 500px;
     border: none;
 }
+
 
 /* Landing Page */
 
@@ -1133,11 +1140,8 @@ footer{
 
 /* Media Queries */ 
 
-@media (max-width: 576px){
-    html{
-        height: 100%;
-    }
-
+@media (max-width: 1024px){
+   
     .nav__links{
         display: none;
     }
@@ -1145,4 +1149,40 @@ footer{
     .btn__menu{
         display: block;
     }
+
+    .nav__container{
+        padding: 0;
+    }
+    .header__discription{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1{
+        font-size: 30px;
+        display: inline-block;
+    }
+
+    .header__discription--para{
+        margin: 20px 0;
+    }
+
+    .header__img--wrapper 
+    .header__customers--title{
+        margin-top: 48px;
+    }
+
+    .header__discription
+    .header__img--wrapper{
+        width: 100%;
+        max-width: 512px;
+        margin: 0 auto;
+    }
+    
+    .header__img{
+        max-width: 512px;
+    }
+
 }
