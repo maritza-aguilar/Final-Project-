@@ -624,12 +624,8 @@ h2 {
     color: #718096;
 }
 
-.values__img--wrapper {
-    width: 50%;
-}
-
 .values__img {
-    width: 100%;
+    width: 50%;
 }
 
 /* Pricing */
@@ -1136,9 +1132,10 @@ footer {
     background-color: rgb(203, 213, 224);
 }
 
-/* Media Queries */
+/* Mobile Devices */
 
 @media (max-width:600px) {
+   
     .features__container {
         padding: 80px 0;
     }
@@ -1223,6 +1220,91 @@ footer {
         margin: auto;
         margin-top: 40px;
     }
+
+    .steps__container{
+        padding: 80px 0;
+    }
+
+    .steps__row{
+        flex-direction: column;
+    }
+
+    .section__tag--steps{
+        text-align: center;
+    }
+
+    .section__title--steps{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .steps__description,
+    .values__description{
+        padding: 0;
+        margin-top: 64px;
+
+    }
+
+    .steps__list{
+        text-align: center;
+    }
+
+    .step{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step__number{
+        margin-bottom: 15px;
+    }
+
+    .step__description{
+        margin: 0;
+    }
+
+    .values__row{
+        flex-direction: column-reverse;
+    }
+
+    .values__description{
+        padding: 0;
+    }
+
+    .section__tag--values{
+        text-align: center;
+    }
+
+    .section__title--values{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .section__para--values{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .values__list{
+        flex-direction: column;
+        max-width: 20rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .value__para{
+        text-align: center;
+    }
+
+
+    .value:nth-of-type(1){
+        margin-top: 32px;
+        margin-right: 0px;
+    }
+
+    .value__img--wrapper{
+        align-items: center;
+    }
+}
 
     @media (max-width: 1024px) {
 
