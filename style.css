@@ -1291,6 +1291,10 @@ footer {
         margin-right: auto;
     }
 
+    .value__title{
+        justify-content: center;
+    }
+
     .value__para{
         text-align: center;
     }
@@ -1303,6 +1307,27 @@ footer {
 
     .value__img--wrapper{
         align-items: center;
+    }
+
+    .container__pricing--plans{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .section__para--pricing{
+        max-width: 576px;
+        text-align: center;
+    }
+
+    .plans{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .plan{
+        margin-right: 0px;
     }
 }
 
